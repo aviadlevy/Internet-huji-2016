@@ -1,0 +1,84 @@
+html {
+
+	background: linear-gradient(hsla(210, 100%, 50%, 1) 70%, hsla(235, 100%, 50%, 1)) no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 17px
+}
+
+#topBar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 45px;
+}
+
+#bottomBar {
+	position: fixed;
+    height: 40px; 
+    bottom: 0; 
+    left: 0;
+	background: black;
+	color: white;
+	font-size: 25px;
+	padding: 5px;
+    width: 25%;
+	-webkit-transition: width 2s, color 2s; /* Safari */
+    transition: width 2s, color 2s;
+	-webkit-transition-timing-function: ease;
+	transition-timing-function: ease-in-out;
+}
+#bottomBar:hover {
+	width: 100%;
+	color: yellow;
+}
+
+th, td {
+	padding: 10px;
+}
+
+a:visited {
+	color: yellow;
+}
+hr {
+	border: 0;
+	width: 100%;
+	color: black;
+	background-color: black;
+	height: 5px;
+}
+
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+	transform: rotate(7deg);
+}
+
+form {
+	float: right;
+	font-weight: bold;
+	color: black;
+}
+
+input {
+	margin-right: 10px;
+	margin-top: 7px;
+}
+
+input[type="submit"] {
+	
+    padding:5px 15px;
+	background-color: hsla(238, 88%, 56%, 1);
+	width: 8em;
+	color: white;
+	font-weight: bold;
+	border: 4px solid white;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
