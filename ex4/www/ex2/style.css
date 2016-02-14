@@ -1,0 +1,165 @@
+body {
+    background-color: #0e83cd;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    color: #fff;
+}
+
+h1{
+    font-family: arial, sans-serif;
+    color: crimson;
+    font-weight: bold;
+}
+
+h2 {
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1.4em;
+    line-height: 2.8em;
+}
+
+
+.loginScreen {
+    margin: 0;
+}
+
+.loginDiv {
+    background-color: whitesmoke;
+    max-width: 340px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+.loginDiv .boxHeader {
+    background-color: #665851;
+    margin-top: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.loginDiv label {
+    font-weight: 700;
+    font-size: .8em;
+    color: #888;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+
+.loginDiv input {
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: .9em;
+    color: #888;
+}
+
+.loginDiv input:focus {
+    outline: none;
+    border-color: #665851;
+    transition: 0.5s;
+    color: #665851;
+}
+
+.loginDiv button {
+    margin-top: 0px;
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    background-color: #665851;
+    cursor:pointer;
+    outline: none;
+}
+
+.loginDiv button:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.loginDiv button:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.loginDiv {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+}
+
+.profileScreen {
+    margin: 2%;
+    text-align: center;
+}
+
+.calculatorScreen {
+    margin: 2%;
+    text-align: center;
+}
+
+.opButtons {
+    border: none;
+    color: #fff;
+    background: #0e83cd;
+    border: 3px solid #fff;
+    cursor: pointer;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /*font-weight: 700;*/
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+button {
+    border: none;
+    color: #fff;
+    background: #0e83cd;
+    border: 3px solid #fff;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+
+button:after {
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+button:hover,
+button:active {
+    color: #0e83cd;
+    background: #fff;
+}
+
+.Buttons {
+    padding: 5px;
+    margin: 5px;
+}
+
